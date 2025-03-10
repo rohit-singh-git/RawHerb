@@ -6,13 +6,15 @@ function ProductCard({ product }) {
 
     return (
         <>
-            <div className=" bg-yellow-900 text-white p-4 rounded-lg w-64 shadow-lg m-4">
+            <div className=" bg-yellow-900 text-white p-4 rounded-lg w-full md:w-64 shadow-lg m-4">
+
                 <h2 className="text-xl font-bold text-center">{product.name}</h2>
                 <div className="bg-white p-4 rounded-lg mt-2">
                     <img
                         src={product.image} // Replace with the correct image path
                         alt={product.name}
-                        className="w-full h-50 object-cover rounded-lg"
+                        className="w-full h-auto object-cover rounded-lg"
+
                     />
                    
                 </div>

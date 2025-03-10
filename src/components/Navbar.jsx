@@ -2,12 +2,12 @@ import { Link, NavLink } from "react-router-dom";
 
 function Navbar() {
     return (
-        <div className="w-full h-max bg-yellow-950 py-3 px-6 flex justify-between items-center shadow-lg">
+        <div className="w-screen h-max bg-yellow-950 py-3 px-6 md:py-4 md:px-8 flex justify-between items-center shadow-lg">
             <Link to="/RawHerb/">
                 <div className="flex items-center gap-3 cursor-default">
                     {/* Logo and name */}
                     <img src="/RawHerb/assets/images/logo1.png" alt="logo" className="w-18 h-20" />
-                    <span className="font-bold text-4xl text-white">RawHerb</span>
+                    <span className="font-bold text-2xl md:text-4xl text-white">RawHerb</span>
                 </div>
             </Link>
 
