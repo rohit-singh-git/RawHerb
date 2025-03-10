@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-import Contact from "../pages/Contact";
 
 function Footer() {
     return (

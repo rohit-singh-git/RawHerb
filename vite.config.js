@@ -7,5 +7,5 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss()
   ],
-  // base: "/RawHerb",
+  base: "https://rohit-singh-git.github.io/RawHerb/",
 })
