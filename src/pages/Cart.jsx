@@ -12,7 +12,7 @@ function Cart() {
                 cart.map((item) => (
                     <div key={item.id} className="flex justify-between items-center border-b pb-2 mb-2">
                         <img src={item.image} alt={item.name} className="w-25 h-25 rounded" />
-                        <div className="w-52">
+                        <div className="w-35">
                             <p className="font-semibold">{item.name}</p>
                             <p>Qty: {item.quantity}</p>
                             <p className="text-green-600 font-bold">${item.price * item.quantity}</p>
