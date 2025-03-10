@@ -7,7 +7,7 @@ function Home() {
     return (
         <>
 
-            <form className="search-form flex justify-center m-6">
+            <form className="search-form flex justify-center m-6 p-6">
                 <input type="text" placeholder="Search for products..." className="search-input bg-gray-700 rounded-l-2xl px-20 mr-0.5" value={searchQuery} onChange={(e) => { setSearchQuery(e.target.value.toLowerCase()) }} />
                 <button type="submit" className="search-button rounded-l-none">Search</button>
             </form>

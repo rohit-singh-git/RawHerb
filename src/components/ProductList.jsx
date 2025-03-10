@@ -8,7 +8,7 @@ function ProductList({ searchQuery }) {
     );
 
     return (
-        <div className="grid grid-cols-3 gap-10 p-6 ml-5">
+        <div className="grid grid-cols-3 justify-between gap-20 p-6 ml-5">
             {filteredProducts.length > 0 ? (
                 filteredProducts.map((product) => (
                     <ProductCard key={product.id} product={product} />
