@@ -14,11 +14,9 @@ function ProductCard({ product }) {
                         alt={product.name}
                         className="w-full h-50 object-cover rounded-lg"
                     />
-                   
                 </div>
                 <p className="text-white font-medium text-sm flex justify-center m-3">{product.description}</p>
                 <div className="flex justify-between items-center mt-4">
-                    
                     <p className="text-lg font-bold">{new Intl.NumberFormat("en-US", { style: "currency", currency: "INR" }).format(product.price)}</p>
                     <button className="bg-green-600 px-4 py-2 rounded-lg text-white font-semibold hover:bg-green-800" onClick={() => {addToCart(product)}}>
                         Add to Cart
@@ -30,9 +28,7 @@ function ProductCard({ product }) {
                         {message}
                     </div>
                 )}
-
             </div>
-
         </>
     );
 }
