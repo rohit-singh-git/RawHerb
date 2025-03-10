@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 
 function Navbar() {
     return (
-        <div className="w-screen h-max bg-yellow-950 py-3 px-6 flex justify-between items-center shadow-lg">
+        <div className="w-full h-max bg-yellow-950 py-3 px-6 flex justify-between items-center shadow-lg">
             <Link to="/RawHerb/">
                 <div className="flex items-center gap-3 cursor-default">
                     {/* Logo and name */}
