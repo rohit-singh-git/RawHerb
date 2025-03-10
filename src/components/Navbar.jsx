@@ -16,8 +16,8 @@ function Navbar() {
                     {/*Home, Cart, Login */}
                     <ul className=" flex gap-6 text-lg">
                         <li><NavLink to="/RawHerb/" className={({ isActive }) => `${isActive ? " text-gray-500 text-2xl italic" : ""} hover:text-gray-400 cursor-pointer font-medium`}>Home</NavLink></li>
-                        <li><NavLink to="/RawHerb/cart" className={({ isActive }) => `${isActive ? " text-gray-500 text-2xl italic" : ""} hover:text-gray-400 cursor-pointer font-medium`}>Cart</NavLink></li>
-                        <li><NavLink to="/RawHerb/login" className={({ isActive }) => `${isActive ? " text-gray-500 text-2xl italic" : ""} hover:text-gray-400 cursor-pointer font-medium`}>Login</NavLink></li>
+                        <li><NavLink to="/RawHerb/cart/" className={({ isActive }) => `${isActive ? " text-gray-500 text-2xl italic" : ""} hover:text-gray-400 cursor-pointer font-medium`}>Cart</NavLink></li>
+                        <li><NavLink to="/RawHerb/login/" className={({ isActive }) => `${isActive ? " text-gray-500 text-2xl italic" : ""} hover:text-gray-400 cursor-pointer font-medium`}>Login</NavLink></li>
                     </ul>
 
                 </div>
