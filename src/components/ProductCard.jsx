@@ -12,7 +12,7 @@ function ProductCard({ product }) {
                     <img
                         src={product.image} // Replace with the correct image path
                         alt={product.name}
-                        className="w-full h-auto object-cover rounded-lg"
+                        className="w-full h-70 object-cover rounded-lg"
                     />
                 </div>
                 <p className="text-white font-medium text-sm flex justify-center m-3">{product.description}</p>
