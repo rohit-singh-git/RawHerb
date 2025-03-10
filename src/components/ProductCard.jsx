@@ -6,7 +6,7 @@ function ProductCard({ product }) {
 
     return (
         <>
-            <div className=" bg-yellow-900 text-white p-4 rounded-lg w-full md:w-64 shadow-lg m-4">
+            <div className=" bg-yellow-900 text-white p-4 rounded-lg w-screen md:w-64 shadow-lg m-4">
 
                 <h2 className="text-xl font-bold text-center">{product.name}</h2>
                 <div className="bg-white p-4 rounded-lg mt-2">
