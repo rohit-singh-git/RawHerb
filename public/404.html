@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta http-equiv="refresh" content="3;url=/RawHerb/" />
-</head>
-<body>
-    <p>Redirecting...</p>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
     <script>
-        const baseUrl = "/RawHerb";
-        const currentPath = window.location.pathname;
-
-        // Ensure we are not adding baseUrl multiple times
-        if (!currentPath.startsWith(baseUrl)) {
-            window.location.replace(baseUrl + currentPath);
-        } else {
-            window.location.replace(currentPath);
+        var pathname = window.location.pathname;
+        var newPath = "/RawHerb" + pathname;
+        
+        if (!pathname.startsWith("/RawHerb")) {
+            window.location.replace(newPath);
         }
     </script>
+</head>
+<body>
+    <h1>Redirecting...</h1>
 </body>
 </html>
