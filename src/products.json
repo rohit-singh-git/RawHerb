@@ -4,14 +4,14 @@
     "name": "Moringa Powder",
     "price": 100,
     "description": "This is a great product.",
-    "image": "./src/assets/p1.jpg"
+    "image": "./src/assets/images/p1.jpg"
   },
   {
     "id": 2,
     "name": "Honey",
     "price": 150,
     "description": "Great Honey within its category.",
-    "image": "./src/assets/p2.jpg"
+    "image": "./src/assets/images/p2.jpg"
   }
   ,
   {
@@ -19,20 +19,20 @@
     "name": "Ashwagandha",
     "price": 400,
     "description": "Great Ashwagandha within its category.",
-    "image": "./src/assets/p3.jpg"
+    "image": "./src/assets/images/p3.jpg"
   },
   {
     "id": 4,
     "name": "Moringa Powder",
     "price": 100,
     "description": "This is a great product.",
-    "image": "./src/assets/p1.jpg"
+    "image": "./src/assets/images/p1.jpg"
   },
   {
     "id": 5,
     "name": "Honey",
     "price": 150,
     "description": "Great Honey within its category.",
-    "image": "./src/assets/p2.jpg"
+    "image": "./src/assets/images/p2.jpg"
   }
 ]
