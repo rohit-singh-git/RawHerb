@@ -6,7 +6,15 @@
 <body>
     <p>Redirecting...</p>
     <script>
-        window.location.replace("/RawHerb/" + window.location.pathname);
+        const baseUrl = "/RawHerb";
+        const currentPath = window.location.pathname;
+
+        // Ensure we are not adding baseUrl multiple times
+        if (!currentPath.startsWith(baseUrl)) {
+            window.location.replace(baseUrl + currentPath);
+        } else {
+            window.location.replace(currentPath);
+        }
     </script>
 </body>
 </html>
