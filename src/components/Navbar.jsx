@@ -11,11 +11,11 @@ function Navbar() {
                 </div>
             </Link>
 
-            <ul className="flex gap-6 text-lg">
+            <ul className="flex gap-5 text-lg">
                 <li>
                     <NavLink
                         to="/RawHerb/"
-                        className={"text-gray-500 text-2xl italic font-medium"}
+                        className={"text-gray-100 text-2xl italic font-medium"}
                     >
                         Home
                     </NavLink>
