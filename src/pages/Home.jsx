@@ -1,5 +1,8 @@
 import { useState } from "react";
 import ProductList from "../components/ProductList";
+import SimpleSlider from "../components/SimpleSlider"
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function Home() {
     const [searchQuery, setSearchQuery] = useState("")
@@ -12,7 +15,9 @@ function Home() {
                 <button type="submit" className="search-button rounded-l-none">Search</button>
             </form>
 
-            <ProductList searchQuery={searchQuery} />
+            {/* <ProductList searchQuery={searchQuery} /> */}
+
+            <SimpleSlider searchQuery={searchQuery} />
 
         </>
     );
