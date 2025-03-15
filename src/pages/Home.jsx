@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ProductList from "../components/ProductList";
+// import ProductList from "../components/ProductList";
 import SimpleSlider from "../components/SimpleSlider"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
